@@ -8,8 +8,8 @@
 <h1 align="center">Pace</h1>
 
 <p align="center"><b>Type faster. Play sharper.</b><br>
-A free typing speed test with touch-typing lessons and typing games — on the web, macOS, Windows,
-Linux, FreeBSD, Android, iPhone, iPad and in your browser's toolbar.</p>
+A free typing speed test with touch-typing lessons and typing games — a Mac app for Apple silicon,
+an iPhone and iPad app, and a website.</p>
 
 <p align="center">⭐ <b>If Pace helps you type faster, please star this repository</b> — it helps other people find it. ⭐</p>
 
@@ -36,11 +36,15 @@ Linux, FreeBSD, Android, iPhone, iPad and in your browser's toolbar.</p>
 - **Games** — *Slice* (cut the fruit by typing its word), *Tic Tac Type* (race a fox for every
   square), *Word Rain* (catch falling words), *Pace Race* (out-type three rival cars) and
   *Bubble Pop* (pop the bubbles before they float away).
-- **Any text becomes a test** — share it to Pace on Android, open a text file with Pace on a
-  computer, iPhone or iPad, use Services → Type this in Pace on a Mac, or pick "Type this in Pace"
-  on any web page with the extension.
-- **Small** — the desktop app is about 3.5 MB (about 2.3 MB on an Apple-silicon Mac), the Android app about 240 KB, the extension about
-  210 KB, and the website works offline once visited.
+- **A plan and a coach** — a four-week practice plan, ladders that race the clock, a progress
+  report with weekly trends and weak-key coaching, daily goals and a streak calendar.
+- **Trainers and tools** — numpad, symbols and keyboard-layout trainers, a library for your own
+  texts, a command palette (⌘K or Ctrl-K), a shortcuts sheet (?), break reminders and
+  accessibility options. With Pace Pro: a theme editor and a sound designer.
+- **Any text becomes a test** — open a text file with Pace on a Mac, iPhone or iPad, or use
+  Services → Type this in Pace on a Mac.
+- **Small and quick** — the Mac app is about 2.3 MB, the website loads the typing test first and
+  everything else when it is needed, and works offline once visited.
 
 <p align="center">
   <img src="docs/demos/slice.webp" width="49%" alt="Slice">
@@ -58,23 +62,22 @@ Linux, FreeBSD, Android, iPhone, iPad and in your browser's toolbar.</p>
 
 - **Pace Pro** for a week (₹9), monthly (₹20) or yearly (₹220) that renew until you cancel, one year (₹220) or for life (₹999).
 - **Hearts** continue Word Rain and Bubble Pop after the last life — three free every day, packs of 10 to 500.
-- **Pace Coins** unlock nineteen extras: caret trails, celebrations, key sounds, backdrops and game skins. Buy them, or earn up to 150 a day by practising.
+- **Pace Coins** unlock ninety extras: colour themes, typing fonts, caret shapes, frames, sound packs, results cards, skins for all seven games, mascots and boosters. Buy them, or earn up to 150 a day by practising.
+- **Pace Pass** — a monthly season of extras plus 300 coins and 30 hearts; **bundles**, two-year, family and gift Pro on the website.
+- **On the App Store** everything is bought with Apple's in-app purchase, with Restore purchases.
 - **One account** for every app on ipconfig.co.network: plans, orders, gift codes, computers, sessions, profile, security, activity and help, inside Pace.
 
 ## Install
 
 | System | |
 |---|---|
-| **macOS** · **Linux** · **FreeBSD** · **ChromeOS** (Linux) | `curl -fsSL https://ipconfig.co.network/pour/install \| sh` then `pour install --cask pace` |
-| **Windows** | get Pour from [ipconfig.co.network/pour](https://ipconfig.co.network/pour), then `pour install --cask pace` |
-| **Android** | `Pace_<version>.apk` from the [latest release](https://github.com/JKS-sys/pace-17-Oct-2026-releases/releases/latest) |
-| **iPhone, iPad** | `Pace_<version>.ipa` (sideload with AltStore, SideStore or Sideloadly), or open the website in Safari → Share → Add to Home Screen |
-| **Browser** | `Pace_<version>_extension-chrome.zip` or `…-firefox.zip` — load it from your browser's extensions page |
+| **Mac (Apple silicon)** | `curl -fsSL https://ipconfig.co.network/pour/install \| sh` then `pour install --cask pace` |
+| **iPhone, iPad** | the App Store, or open the website in Safari → Share → Add to Home Screen |
 | **No install** | [ipconfig.co.network/typing-test](https://ipconfig.co.network/typing-test/) |
 
-Every installer is also on [ipconfig.co.network/pace](https://ipconfig.co.network/pace). The Mac
-app is signed with the creator's own certificate, not Apple's: if macOS says it is damaged on
-first launch, run `xattr -cr /Applications/Pace.app` once. The desktop apps update themselves.
+Pace is a Mac app for Apple silicon (M-series, macOS 12 or newer): Pour installs it and it
+updates itself. A build without Apple's Developer ID is signed with the creator's own permanent
+certificate: if macOS says it is damaged on first launch, run `xattr -cr /Applications/Pace.app` once.
 
 ## Licence
 

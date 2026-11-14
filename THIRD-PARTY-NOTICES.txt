@@ -3,7 +3,7 @@ Pace is © 2026 Jagadeesh Kumar S (see LICENSE). The components below are includ
 their own licences, whose terms require these texts to ship with Pace.
 
 ════════════════════════════════════════════════════════════════════════════════════════════
-1. In every version (website, desktop, phone apps, browser extension)
+1. In every version (website, Mac app, iPhone and iPad app)
 ════════════════════════════════════════════════════════════════════════════════════════════
 
   Preact 10.27.2 — MIT
@@ -32,7 +32,7 @@ their own licences, whose terms require these texts to ship with Pace.
   Libre Baskerville (a subset) — SIL Open Font Licence 1.1 — text in section 3.
 
 ════════════════════════════════════════════════════════════════════════════════════════════
-2. In the desktop apps (macOS, Windows, Linux, FreeBSD): 365 Rust crates
+2. In the desktop apps (macOS, Windows, Linux, FreeBSD): 329 Rust crates
 ════════════════════════════════════════════════════════════════════════════════════════════
 Where a crate offers a choice of licences, Pace uses it under the first of
 MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-2.0 that it offers. Each licence's text is in section 3.
@@ -42,14 +42,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   alloc-no-stdlib 3.0.0 — BSD-3-Clause
   alloc-stdlib 0.3.0 — BSD-3-Clause
   anyhow 1.0.104 — MIT OR Apache-2.0
-  async-broadcast 0.7.2 — MIT OR Apache-2.0
-  async-channel 2.5.0 — Apache-2.0 OR MIT
-  async-executor 1.14.0 — Apache-2.0 OR MIT
-  async-io 2.6.0 — Apache-2.0 OR MIT
-  async-lock 3.4.2 — Apache-2.0 OR MIT
-  async-process 2.5.0 — Apache-2.0 OR MIT
-  async-signal 0.2.14 — Apache-2.0 OR MIT
-  async-task 4.7.1 — Apache-2.0 OR MIT
   atk 0.18.2 — MIT
   atk-sys 0.18.2 — MIT
   atomic-waker 1.1.2 — Apache-2.0 OR MIT
@@ -62,7 +54,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   bitflags 2.13.2 — MIT OR Apache-2.0
   block-buffer 0.10.4 — MIT OR Apache-2.0
   block2 0.6.2 — MIT
-  blocking 1.7.0 — Apache-2.0 OR MIT
   brotli 9.0.0 — BSD-3-Clause AND MIT
   brotli-decompressor 6.0.1 — BSD-3-Clause/MIT
   bumpalo 3.20.3 — MIT OR Apache-2.0
@@ -78,7 +69,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   cfb 0.14.0 — MIT
   cfg-if 1.0.5 — MIT OR Apache-2.0
   combine 4.6.9 — MIT
-  concurrent-queue 2.5.0 — Apache-2.0 OR MIT
   cookie 0.18.2 — MIT OR Apache-2.0
   core-foundation 0.10.1 — MIT OR Apache-2.0
   core-foundation-sys 0.8.7 — MIT OR Apache-2.0
@@ -108,13 +98,8 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   dyn-clone 1.0.20 — MIT OR Apache-2.0
   ed25519-compact 2.6.0 — MIT
   embed_plist 1.2.2 — MIT OR Apache-2.0
-  endi 1.1.1 — MIT
-  enumflags2 0.7.12 — MIT OR Apache-2.0
   equivalent 1.0.3 — Apache-2.0 OR MIT
   erased-serde 0.4.10 — MIT OR Apache-2.0
-  errno 0.3.14 — MIT OR Apache-2.0
-  event-listener 5.4.2 — Apache-2.0 OR MIT
-  event-listener-strategy 0.5.4 — Apache-2.0 OR MIT
   fastrand 2.5.0 — Apache-2.0 OR MIT
   fdeflate 0.3.7 — MIT OR Apache-2.0
   field-offset 0.3.6 — MIT OR Apache-2.0
@@ -128,7 +113,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   futures-core 0.3.34 — MIT OR Apache-2.0
   futures-executor 0.3.34 — MIT OR Apache-2.0
   futures-io 0.3.34 — MIT OR Apache-2.0
-  futures-lite 2.6.1 — Apache-2.0 OR MIT
   futures-sink 0.3.34 — MIT OR Apache-2.0
   futures-task 0.3.34 — MIT OR Apache-2.0
   futures-util 0.3.34 — MIT OR Apache-2.0
@@ -137,8 +121,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   gdk-pixbuf-sys 0.18.0 — MIT
   gdk-sys 0.18.2 — MIT
   gdkwayland-sys 0.18.2 — MIT
-  gdkx11 0.18.2 — MIT
-  gdkx11-sys 0.18.2 — MIT
   generic-array 0.14.7 — MIT
   getrandom 0.3.4 — MIT OR Apache-2.0
   getrandom 0.4.3 — MIT OR Apache-2.0
@@ -154,8 +136,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   hashbrown 0.17.1 — MIT OR Apache-2.0
   heck 0.4.1 — MIT OR Apache-2.0
   heck 0.5.0 — MIT OR Apache-2.0
-  hermit-abi 0.5.3 — MIT OR Apache-2.0
-  hex 0.4.3 — MIT OR Apache-2.0
   html5ever 0.39.0 — MIT OR Apache-2.0
   http 1.5.0 — MIT OR Apache-2.0
   http-body 1.1.0 — MIT
@@ -195,7 +175,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   libredox 0.1.25 — MIT
   libxdo 0.6.0 — MIT
   libxdo-sys 0.11.0 — MIT
-  linux-raw-sys 0.12.1 — Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT
   litemap 0.8.3 — Unicode-3.0
   lock_api 0.4.14 — MIT OR Apache-2.0
   log 0.4.34 — MIT OR Apache-2.0
@@ -232,10 +211,8 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   objc2-web-kit 0.3.2 — Zlib OR Apache-2.0 OR MIT
   once_cell 1.21.4 — MIT OR Apache-2.0
   option-ext 0.2.0 — MPL-2.0
-  ordered-stream 0.2.0 — MIT OR Apache-2.0
   pango 0.18.3 — MIT
   pango-sys 0.18.0 — MIT
-  parking 2.2.1 — Apache-2.0 OR MIT
   parking_lot 0.12.5 — MIT OR Apache-2.0
   parking_lot_core 0.9.12 — MIT OR Apache-2.0
   percent-encoding 2.3.2 — MIT OR Apache-2.0
@@ -243,11 +220,9 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   phf_generator 0.13.1 — MIT
   phf_shared 0.13.1 — MIT
   pin-project-lite 0.2.17 — Apache-2.0 OR MIT
-  piper 0.2.5 — MIT OR Apache-2.0
   plist 1.10.1 — MIT
   png 0.17.16 — MIT OR Apache-2.0
   png 0.18.1 — MIT OR Apache-2.0
-  polling 3.11.0 — Apache-2.0 OR MIT
   potential_utf 0.1.6 — Unicode-3.0
   powerfmt 0.2.1 — MIT OR Apache-2.0
   precomputed-hash 0.1.1 — MIT
@@ -268,7 +243,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   regex-syntax 0.8.11 — MIT OR Apache-2.0
   reqwest 0.13.5 — MIT OR Apache-2.0
   rustc-hash 2.1.3 — Apache-2.0 OR MIT
-  rustix 1.1.5 — Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT
   same-file 1.0.6 — Unlicense/MIT
   schemars 0.8.22 — MIT
   scopeguard 1.2.0 — MIT OR Apache-2.0
@@ -285,7 +259,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   serialize-to-javascript 0.1.2 — MIT OR Apache-2.0
   servo_arc 0.4.3 — MIT OR Apache-2.0
   sha2 0.10.9 — MIT OR Apache-2.0
-  signal-hook-registry 1.4.8 — MIT OR Apache-2.0
   simd-adler32 0.3.10 — MIT
   siphasher 1.0.4 — MIT OR Apache-2.0
   slab 0.4.12 — MIT
@@ -306,11 +279,9 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   tao 0.37.1 — Apache-2.0
   tauri 2.12.4 — Apache-2.0 OR MIT
   tauri-codegen 2.7.3 — Apache-2.0 OR MIT
-  tauri-plugin-single-instance 2.5.4 — Apache-2.0 OR MIT
   tauri-runtime 2.12.2 — Apache-2.0 OR MIT
   tauri-runtime-wry 2.12.2 — Apache-2.0 OR MIT
   tauri-utils 2.10.2 — Apache-2.0 OR MIT
-  tempfile 3.27.0 — MIT OR Apache-2.0
   tendril 0.5.1 — MIT OR Apache-2.0
   thiserror 1.0.69 — MIT OR Apache-2.0
   thiserror 2.0.21 — MIT OR Apache-2.0
@@ -337,7 +308,6 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   try-lock 0.2.5 — MIT
   typeid 1.0.3 — MIT OR Apache-2.0
   typenum 1.20.1 — MIT OR Apache-2.0
-  uds_windows 1.2.1 — MIT
   unicode-ident 1.0.27 — (MIT OR Apache-2.0) AND Unicode-3.0
   unicode-segmentation 1.13.3 — MIT OR Apache-2.0
   url 2.5.8 — MIT OR Apache-2.0
@@ -391,17 +361,11 @@ MIT, Apache-2.0, ISC, BSD-3-Clause, Zlib, Unicode-3.0, MPL-2.0, CDLA-Permissive-
   writeable 0.6.4 — Unicode-3.0
   wry 0.57.0 — Apache-2.0 OR MIT
   x11 2.21.0 — MIT
-  x11-dl 2.21.0 — MIT
   yoke 0.8.3 — Unicode-3.0
-  zbus 5.19.0 — MIT
-  zbus_names 4.3.5 — MIT
-  zcheapstr 1.1.0 — MIT
   zerofrom 0.1.8 — Unicode-3.0
   zerotrie 0.2.5 — Unicode-3.0
   zerovec 0.11.8 — Unicode-3.0
   zmij 1.0.23 — MIT
-  zvariant 5.15.1 — MIT
-  zvariant_utils 4.2.0 — MIT
 
 ════════════════════════════════════════════════════════════════════════════════════════════
 3. Licence texts
